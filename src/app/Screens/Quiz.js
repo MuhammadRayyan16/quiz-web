@@ -50,6 +50,7 @@ const questions = [
     },
 ];
 
+
 export default function Quiz() {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [score, setScore] = useState(0);
